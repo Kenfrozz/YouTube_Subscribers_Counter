@@ -30,6 +30,6 @@ Bu Python projesi, belirli bir YouTube kanalının abone sayısını almak için
 
 ## Katkıda Bulunma
 
-- Bu proje açık kaynaklıdır. Her türlü katkı ve öneriye açıktır. Fork yapabilir ve pull request gönderebilirsiniz.
+- Bu proje açık kaynaklıdır. Her türlü katkı ve öneriye açıktır.
 
 
