@@ -11,7 +11,7 @@ Bu Python projesi, belirli bir YouTube kanalının abone sayısını almak için
 
 2. **Proje Ayarlarını Yapın:**
     - `main.py` dosyasındaki `api_key` değişkenine oluşturduğunuz API anahtarını ekleyin.
-    - `channel_username` değişkenine kontrol etmek istediğiniz YouTube kanalının kullanıcı adını ekleyin.
+    - `channel_id` değişkenine kontrol etmek istediğiniz YouTube kanalının ürün kimliğini ekleyin.
 
 3. **Gerekli Kütüphaneyi Yükleyin:**
     ```bash
@@ -32,6 +32,4 @@ Bu Python projesi, belirli bir YouTube kanalının abone sayısını almak için
 
 - Bu proje açık kaynaklıdır. Her türlü katkı ve öneriye açıktır. Fork yapabilir ve pull request gönderebilirsiniz.
 
-## Lisans
 
-Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır.
