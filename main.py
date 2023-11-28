@@ -1,8 +1,8 @@
 import requests
 import json
 
-api_key = "AIzaSyCqlL-F80yt-hL2dOW3SkZLWw7gz5m3vnw" # API anahtarını buraya girin
-channel_id = "UClnZnWwZl-w-WmLNEbKTpxg" # kanal kimliğini buraya girin
+api_key = "# API anahtarını buraya girin" 
+channel_id = "# Kanal kimliğini buraya girin" 
 
 
 while True:
