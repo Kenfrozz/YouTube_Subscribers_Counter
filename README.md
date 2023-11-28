@@ -1,35 +1,34 @@
-# YouTube Kanal Abone Sayısı Kontrolü
+# YouTube Channel Subscriber Count Check
 
-Bu Python projesi, belirli bir YouTube kanalının abone sayısını almak için YouTube Data API'yi kullanır. Proje, Google Developer Console üzerinden alınan bir API anahtarı ile çalışır.
+This Python project uses the YouTube Data API to retrieve the subscriber count of a given YouTube channel. The project works with an API key obtained through the Google Developer Console.
 
-## Nasıl Kullanılır
+## How to Use
 
-1. **API Anahtarı Oluşturun:**
-    - [Google Developer Console](https://console.developers.google.com/) adresine gidin.
-    - Yeni bir proje oluşturun ve YouTube Data API v3'ü etkinleştirin.
-    - "Kimlik Bilgileri" bölümünde bir API anahtarı oluşturun.
+1. **Generate an API Key:**
+    - Go to [Google Developer Console](https://console.developers.google.com/).
+    - Create a new project and enable YouTube Data API v3.
+    - Create an API key in the "Credentials" section.
 
-2. **Proje Ayarlarını Yapın:**
-    - `main.py` dosyasındaki `api_key` değişkenine oluşturduğunuz API anahtarını ekleyin.
-    - `channel_id` değişkenine kontrol etmek istediğiniz YouTube kanalının ürün kimliğini ekleyin.
+2. **Make Project Settings:**
+    - Add the API key you created to the `api_key` variable in the `main.py` file.
+    - Add the product ID of the YouTube channel you want to control to the `channel_id` variable.
 
-3. **Gerekli Kütüphaneyi Yükleyin:**
+3. **Install the Required Library:**
     ```bash
     pip install google-api-python-client
     ```
 
-4. **Projeyi Çalıştırın:**
+4. **Run the Project:**
     ```bash
     python main.py
     ```
 
-## Dikkat Edilmesi Gerekenler
+## Things to Consider
 
-- Bu proje, YouTube Data API'yi kullanır. Bu nedenle, API sınırlamalarına ve politikalarına dikkat edilmelidir.
-- Projenin çalışabilmesi için internet bağlantısına ihtiyaç vardır.
+- This project uses the YouTube Data API. Therefore, API limitations and policies should be observed.
+- An internet connection is required for the project to work.
 
-## Katkıda Bulunma
+## Contributing
 
-- Bu proje açık kaynaklıdır. Her türlü katkı ve öneriye açıktır.
-
+- This project is open source. It is open to all kinds of contributions and suggestions.
 
